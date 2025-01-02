@@ -1,0 +1,99 @@
+body {
+    /*background: url('bg.jpg') no-repeat center bottom fixed;*/
+    background-size:cover;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    background-color: #fff;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+  outline: thin dotted;
+  outline-offset: -2px;
+}
+
+p {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+/****************************navbar************************************/
+.topnav {
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: -45px;
+}
+
+.topnav li{
+    display:inline;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background: rgba(255,255,255,0.8);
+    color: #333;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*******************************containers*************************/
+.bg-scroll {
+    height: 100vh;
+}
+
+.container-main {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:50px;
+    vertical-align: top;
+    background: rgba(255,255,255,0.8);
+}
+
+#right-main {
+    float: right;
+    width: 450px;
+}
+#left-main {
+    float: left;
+    width: 220px;
+    height: 250px;
+    padding-right: 50px;
+}
+
+/***************background************/
+img{
+    object-fit: contain;
+    vertical-align: middle;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
